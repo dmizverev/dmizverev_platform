@@ -1,2 +1,3 @@
 # dmizverev_platform
-dmizverev Platform repository
+Dmitriy Zverev Platform repository
+dmizverev@yandex.ru
