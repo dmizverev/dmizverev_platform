@@ -6,7 +6,7 @@ metadata:
   name: frontend
 spec:
   containers:
-  - image: "dmizverev/otus-frontend:1.0.0"
+  - image: "dmizverev/otus-frontend:1.1.0"
     name: frontend
     env:
       - name: PORT
