@@ -10,7 +10,7 @@ dmizverev@yandex.ru
 Предположу, что: 
 - kube-apiserver - это static Pod. За его восстановлением следит непосредственно kubelet.
 См. https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/
-- За восстановление cor-edns, kube-dns отвечает AddonManager, он реагирует на restartpolicy.
+- За восстановление cor-edns, kube-dns отвечает ReplicaSetController.
 
 > Для выполнения домашней работы необходимо создать
 > Dockerfile, в котором будет описан образ, запускающий web-сервер на порту 8000
@@ -54,3 +54,22 @@ Error
 применении ошибка должна исчезнуть
 
 Выполнено.
+
+# Урок №3
+
+Создан ReplicaSet frontend с replicas=3.
+
+> почему обновление ReplicaSet не повлекло обновление
+запущенных pod?
+
+ReplicaSet не проверяет соответствие запущенных Pod'ов шаблону. Ему важен только факт наличия Pod.
+
+Создан ReplicaSer pymentservice с replicaset=3.
+
+Создан Deployment paymentservice.
+
+Созданы Deployment с реализацией стратегии обновления Blue-Green и Reverse Rolling Update.
+
+Создан Deployment frontend с readinessProbe.
+
+Создан DaemonSet node-exporter, в котором выставлен toleration к запуску Pod на Kubernetes master.
