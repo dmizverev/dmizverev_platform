@@ -64,7 +64,7 @@ Error
 
 ReplicaSet не проверяет соответствие запущенных Pod'ов шаблону. Ему важен только факт наличия Pod.
 
-Создан ReplicaSer pymentservice с replicaset=3.
+Создан ReplicaSet pymentservice с replicaset=3.
 
 Создан Deployment paymentservice.
 
@@ -73,3 +73,16 @@ ReplicaSet не проверяет соответствие запущенных
 Создан Deployment frontend с readinessProbe.
 
 Создан DaemonSet node-exporter, в котором выставлен toleration к запуску Pod на Kubernetes master.
+
+# Урок № 4
+
+Создан ServiceAccount bob. Создан ClusterRoleBinding adminbob, где для bob выдана роль admin.
+
+Создан ServiceAccount dave.
+
+Создан Namespace prometheus. В нем создан ServiceAccount carol.
+Создана clusterrole с возможностью для Pod выполнять get list watch.
+Эта роль выдана на namespace prometheus.
+
+Создан Namespace dev. В нем создан ServiceAccount jave с ролью admin и ServiceAccount ken
+с ролью view.
