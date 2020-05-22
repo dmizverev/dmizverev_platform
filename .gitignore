@@ -1,0 +1,38 @@
+# Packages           #
+######################
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs               #
+######################
+*.log
+out/
+
+# OS generated files #
+######################
+Icon?
+ehthumbs.db
+Thumbs.db
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.bak
+
+# IDE specific  #
+###############################
+.project
+/.git
+/.settings
+.idea/
+
+# Custom scripts #
+###############################
+develop.sh
