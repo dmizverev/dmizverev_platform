@@ -57,7 +57,7 @@ spec:
     spec:
       accessModes:
         - ReadWriteOnce
-      storageClassName: csi-cinder
+      #storageClassName: csi-cinder
       resources:
         requests:
           storage: 1Gi
