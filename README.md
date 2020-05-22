@@ -2,7 +2,7 @@
 Dmitriy Zverev Platform repository
 dmizverev@yandex.ru
 
-# Урок №2
+# Урок №2. Знакомство с Kubernetes, основные понятия и архитектура
 
 > Разберитесь почему все pod в namespace kube-system
 восстановились после удаления. Укажите причину в описании PR
@@ -55,7 +55,7 @@ Error
 
 Выполнено.
 
-# Урок №3
+# Урок №3. Механика запуска и взаимодействия контейнеров в Kubernetes
 
 Создан ReplicaSet frontend с replicas=3.
 
@@ -74,7 +74,7 @@ ReplicaSet не проверяет соответствие запущенных
 
 Создан DaemonSet node-exporter, в котором выставлен toleration к запуску Pod на Kubernetes master.
 
-# Урок №4
+# Урок №4. Безопасность и управление доступом
 
 Создан ServiceAccount bob. Создан ClusterRoleBinding adminbob, где для bob выдана роль admin.
 
@@ -87,7 +87,18 @@ ReplicaSet не проверяет соответствие запущенных
 Создан Namespace dev. В нем создан ServiceAccount jave с ролью admin и ServiceAccount ken
 с ролью view.
 
-# Урок №6 Volumes, Storages, StatefulSet
+# Урок №5. Сетевая подсистема Kubernetes
+
+- В Pod web-pod.yaml добавлены Liveness и Readiness probes
+- Создан Deployment и Service с типом ClusterIP
+- Создан Service с типом ClusterIP с типом LoadBalancer
+- Создан headless Service web-svc
+- Создан Ingress перенаправляющий запрос с `/web` на headless Service web-svc по порту 8000
+  
+  Использовать https://raw.githubusercontent.com/kubernetes/ingress-nginx/nginx-0.30.0/deploy/static/mandatory.yaml
+
+
+# Урок №6. Volumes, Storages, StatefulSet
 
 Создан StatefulSet с Pod minio. Environment variables передаются в container из
 secret minio-secret. Для minio создан Headless Service. 
