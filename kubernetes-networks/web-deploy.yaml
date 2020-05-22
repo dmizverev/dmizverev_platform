@@ -16,7 +16,7 @@ spec:
     metadata:
       name: web
       labels:
-        app: "web"
+        app: web
     spec:
       initContainers:
         - name: intro
@@ -27,7 +27,7 @@ spec:
               mountPath: /app
       containers:
         - name: web
-          image: "dmizverev/otus-webapp:1.0.0"
+          image: "dmizverev/otus-webapp:2.0.0"
           readinessProbe:
             httpGet:
               path: /index.html
