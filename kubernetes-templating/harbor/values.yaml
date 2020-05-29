@@ -9,7 +9,7 @@ expose:
       kubernetes.io/ingress.class: nginx
       kubernetes.io/tls-acme: "true"
       #certmanager.k8s.io/cluster-issuer: "letsencrypt-production"
-      certmanager.io/cluster-issuer: "letsencrypt-production"
+      cert-manager.io/cluster-issuer: "letsencrypt-production"
       certmanager.k8s.io/acme-challenge-type: http01
 notary:
   enabled: false
