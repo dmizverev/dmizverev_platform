@@ -289,3 +289,6 @@ ff-64c9-41f4-ac2d-ce783bf9c9a7
 
 # Урок №8. Custom Resource Definitions. Operators
 [Описание](doc/lesson-8-kubernetes-operators.md)
+
+# Урок №10. Логирование
+[Описание](doc/lesson-10-kubernetes-logging.md)
