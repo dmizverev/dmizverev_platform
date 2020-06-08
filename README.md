@@ -290,5 +290,8 @@ ff-64c9-41f4-ac2d-ce783bf9c9a7
 # Урок №8. Custom Resource Definitions. Operators
 [Описание](doc/lesson-8-kubernetes-operators.md)
 
+# Урок №9. Мониторинг сервиса в кластере k8s
+[Описание](doc/lesson-9-kubernetes-monitoring.md)
+
 # Урок №10. Логирование
 [Описание](doc/lesson-10-kubernetes-logging.md)
