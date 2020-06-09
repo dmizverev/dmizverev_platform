@@ -1,0 +1,16 @@
+ingress:
+  enabled: true
+  annotations: {
+    kubernetes.io/ingress.class: nginx
+  }
+  path: /
+  hosts:
+    - kibana.34.66.61.20.xip.io
+
+#resources:
+#  limits:
+#    cpu: 100m
+#    memory: 300Mi
+#  requests:
+#    cpu: 100m
+#    memory: 300Mi
