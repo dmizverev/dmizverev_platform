@@ -8,6 +8,7 @@
 *.rar
 *.tar
 *.zip
+*.tgz
 
 # Logs               #
 ######################
@@ -36,3 +37,6 @@ Thumbs.db
 # Custom scripts #
 ###############################
 develop.sh
+*.crt
+*.pem
+*.csr
