@@ -3,6 +3,8 @@ Dmitriy Zverev Platform repository
 
 dmizverev@yandex.ru
 
+Выполненные домашние задания: 
+
 [Урок №2. Знакомство с Kubernetes, основные понятия и архитектура](doc/lesson-2-kubernetes-intro.md)
 
 [Урок №3. Механика запуска и взаимодействия контейнеров в Kubernetes](doc/lesson-3-kubernetes-controllers.md)
@@ -22,3 +24,7 @@ dmizverev@yandex.ru
 [Урок №10. Логирование](doc/lesson-10-kubernetes-logging.md)
 
 [Урок №12. Hashicorp Vault + K8s](doc/lesson-12-kubernetes-vault.md)
+
+[Урок №16. GitOps и инструменты поставки](doc/lesson-16-kubernetes-gitops.md)
+
+[Урок №22. CSI. Обзор подсистем хранения данных в Kubernetes](doc/lesson-22-kubernetes-storage.md)
