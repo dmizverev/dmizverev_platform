@@ -28,3 +28,5 @@ dmizverev@yandex.ru
 [Урок №16. GitOps и инструменты поставки](doc/lesson-16-kubernetes-gitops.md)
 
 [Урок №22. CSI. Обзор подсистем хранения данных в Kubernetes](doc/lesson-22-kubernetes-storage.md)
+
+[Урок №23. Отладка и тестирование в Kubernetes](doc/lesson-23-kubernetes-debug.md)
