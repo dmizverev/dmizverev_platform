@@ -40,3 +40,4 @@ develop.sh
 *.crt
 *.pem
 *.csr
+/kubernetes-production-clusters/kubespray/

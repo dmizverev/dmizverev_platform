@@ -30,3 +30,5 @@ dmizverev@yandex.ru
 [Урок №22. CSI. Обзор подсистем хранения данных в Kubernetes](doc/lesson-22-kubernetes-storage.md)
 
 [Урок №23. Отладка и тестирование в Kubernetes](doc/lesson-23-kubernetes-debug.md)
+
+[Урок №24. Подходы к развертыванию и обновлению production-grade кластера](doc/lesson-24-kubernetes-production-clusters.md)
